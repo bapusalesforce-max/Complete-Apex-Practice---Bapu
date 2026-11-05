@@ -16,12 +16,13 @@ public with sharing class NonStaticDemoClass {
         System.debug('Print name :' + name);
     }
 
+    public String fiveMethod(Integer num){
 
-
-    public String fourthMethodName( Boolean flag){
-
-        System.debug('Value : '+ flag);
+        return 'Number :' + num;
     }
 
+
     
+
+
 }
