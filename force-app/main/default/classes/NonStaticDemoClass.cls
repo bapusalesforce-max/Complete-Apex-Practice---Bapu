@@ -5,4 +5,9 @@ public with sharing class NonStaticDemoClass {
         
         return areaOfSquare;
     }
+
+    public String nonStaticMethodDisplayName(String name){
+
+        return 'Name is:' + name;
+    }
 }
