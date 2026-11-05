@@ -15,4 +15,13 @@ public with sharing class NonStaticDemoClass {
         
         System.debug('Print name :' + name);
     }
+
+
+
+    public String fourthMethodName( Boolean flag){
+
+        System.debug('Value : '+ flag);
+    }
+
+    
 }
