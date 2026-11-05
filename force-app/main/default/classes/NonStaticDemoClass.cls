@@ -10,4 +10,9 @@ public with sharing class NonStaticDemoClass {
 
         return 'Name is:' + name;
     }
+
+    public String nonGithubMethod(String name){
+        
+        System.debug('Print name :' + name);
+    }
 }
